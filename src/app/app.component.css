@@ -2,3 +2,22 @@ body {
     background-color: black;
     color: grey;
 }
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    border: grey solid;
+}
+
+a:link, a:visited {
+    color: grey;
+}
+a:hover {
+    color: white;
+    border: white solid;
+}
+
+a:active {
+    color: red;
+    border: red solid;
+}
