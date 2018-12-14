@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { FooComponent } from './foo/foo.component';
-import { BarComponent } from './bar/bar.component';
-import { CowComponent } from './cow/cow.component';
+import { BridgeComponent } from './bridge/bridge.component';
+import { CabinsComponent } from './cabins/cabins.component';
+import { EngineeringComponent } from './engineering/engineering.component';
 
 const routes: Routes = [
-  {path: '', component: CowComponent}
-  , {path: 'foo', component: FooComponent}
-  , {path: 'bar', component: BarComponent}
+  {path: '', component: BridgeComponent}
+  , {path: 'engineering', component: EngineeringComponent}
+  , {path: 'cabins', component: CabinsComponent}
 ];
 
 
