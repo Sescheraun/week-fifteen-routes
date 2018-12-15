@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { BridgeComponent } from './bridge/bridge.component';
 import { CabinsComponent } from './cabins/cabins.component';
 import { EngineeringComponent } from './engineering/engineering.component';
+import { TribbleComponent } from './tribble/tribble.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BridgeComponent,
     CabinsComponent,
-    EngineeringComponent
+    EngineeringComponent,
+    TribbleComponent
   ],
   imports: [
     BrowserModule,
