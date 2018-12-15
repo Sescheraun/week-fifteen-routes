@@ -3,7 +3,7 @@ body {
     color: grey;
 }
 
-a {
+a, span.currentLocation {
     text-decoration: none;
     display: inline-block;
     border: grey solid;
@@ -18,7 +18,7 @@ a:hover {
     border: white solid;
 }
 
-a:active {
+a:active, span.currentLocation {
     color: red;
     border: red solid;
 }

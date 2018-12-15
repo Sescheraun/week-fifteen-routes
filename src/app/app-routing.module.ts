@@ -10,6 +10,7 @@ const routes: Routes = [
   , {path: 'engineering', component: EngineeringComponent}
   , {path: 'cabins', component: CabinsComponent}
   , {path: 'tribble', component: TribbleComponent}
+  , {path: 'tribble/:tribble', component: TribbleComponent}
 ];
 
 
